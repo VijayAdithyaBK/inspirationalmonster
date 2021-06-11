@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 5rem;
-  max-width: 10rem;
+  max-height: 8rem;
+  max-width: 40rem;
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -920,6 +920,7 @@ section {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
+  max-height: 60rem;
 }
 
 .faq .faq-list {
@@ -1067,7 +1068,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #fdeff2;
+  background: #51e2f52a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2028,7 +2029,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 10px 8rem;
   display: flex;
   align-items: center;
 }
