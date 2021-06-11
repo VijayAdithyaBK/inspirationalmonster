@@ -1104,7 +1104,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #FBE8A6;
 }
 
 .contact .php-email-form .form-group {
@@ -1289,7 +1289,7 @@ section {
   position: absolute;
   right: 0;
   bottom: -70px;
-  background: #fff;
+  background-color: #FBE8A6;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   z-index: 2;
 }
@@ -1976,13 +1976,13 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f6f4f4;
+  background: #FBE8A6;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #FBE8A6;
 }
 
 #footer .footer-top .footer-contact {
@@ -2066,7 +2066,8 @@ section {
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: #FBE8A6;
+  background-color: #FBE8A6;
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
