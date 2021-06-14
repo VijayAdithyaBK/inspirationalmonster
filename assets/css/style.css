@@ -469,7 +469,7 @@ section {
   padding: 8px 20px;
   line-height: 1;
   margin: 0;
-  background: #9df9ee36;
+  background: #ffc1a456;
   color: #F4976C;
   display: inline-block;
   text-transform: uppercase;
@@ -788,9 +788,9 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+/* .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #9df9ef;
-}
+} */
 
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 15px;
@@ -1065,7 +1065,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #FBE8A6;
 }
 
 .contact .info i {
@@ -1193,7 +1193,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ffa8B6;
+  background: #303C6C;
+  /* color: #F4976C; */
 }
 
 @-webkit-keyframes animate-loading {
@@ -1219,7 +1220,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f6f4f4;
+  background: #FBE8A6;
   margin-top: 67px;
 }
 
@@ -1230,8 +1231,9 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .breadcrumbs ol {
@@ -1423,9 +1425,9 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.blog .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+/* .blog .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #9df9ef;
-}
+} */
 
 .blog .portfolio-item .portfolio-info .details-link {
   right: 15px;
@@ -1465,7 +1467,7 @@ section {
 }
 
 .blog .entry .entry-title a {
-  color: #493c3e;
+  color: #303C6C;
   transition: 0.3s;
 }
 
@@ -1526,7 +1528,8 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #9df9ef;
+  background: #303C6C;
+  color: #F4976C;
 }
 
 .blog .entry .entry-content h3 {
@@ -1921,10 +1924,11 @@ section {
   font-size: 15px;
   margin-left: 95px;
   font-weight: bold;
+  
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: #110e0e;
+  color: #493c3e;
   transition: 0.3s;
 }
 
@@ -2078,7 +2082,7 @@ section {
   position: relative;
   border-radius: 50px;
   text-align: left;
-  border: 1px solid #9df9ef;
+  border: 1px solid #D2FDFF;
 }
 
 #footer .footer-newsletter form input[type="email"] {
@@ -2104,7 +2108,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #9df9ef;
+  background: #303C6C;
 }
 
 #footer .credits {
@@ -2129,7 +2133,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #9df9ef;
+  background: #303C6C;
   color: #fff;
   text-decoration: none;
 }
