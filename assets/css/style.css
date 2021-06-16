@@ -1119,9 +1119,12 @@ section {
 .team {
   /* background: #0f292f; */
   padding: 60px 0;
-  background: #B993D6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #B993D6;
+  background: -webkit-linear-gradient(to left, #8CA6DB, #B993D6); 
+  background: linear-gradient(to left, #8CA6DB, #B993D6);  */
+  /* background-color: #b3cdd1; 
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%); */
+
 }
 
 .team .member {
@@ -1137,6 +1140,11 @@ section {
   position: relative;
   overflow: hidden;
 }
+
+/* .team .member .member-info .tagline {
+  color: gold;
+} */
+
 
 .team .member .social {
   position: absolute;
@@ -1159,7 +1167,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #ffffff;
+  color: gold;
 }
 
 .team .member .social i {
@@ -1189,7 +1197,7 @@ section {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #777777;
+  color: #18d26e;
 }
 
 .team .member:hover .social {
@@ -1201,7 +1209,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #0f292f;
+  /* background: #0f292f; */
 }
 
 .contact .info i {
@@ -1243,7 +1251,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #0f292f;
+  /* background: #0f292f; */
 }
 
 .contact .php-email-form .form-group {
@@ -1355,7 +1363,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #0f292f;
+  /* background: #0f292f; */
   margin-top: 67px;
 }
 
@@ -1612,7 +1620,7 @@ section {
 }
 
 .blog .entry .entry-meta {
-  color: #9a8487;
+  /* color: #9a8487; */
 }
 
 .blog .entry .entry-meta ul {
@@ -1637,7 +1645,7 @@ section {
 }
 
 .blog .entry .entry-meta a {
-  color: #9a8487;
+  /* color: #9a8487; */
   font-size: 14px;
   display: inline-block;
   line-height: 1;
@@ -1685,7 +1693,7 @@ section {
 }
 
 .blog .entry .entry-content blockquote p {
-  color: #444444;
+  /* color: #444444; */
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -1693,12 +1701,13 @@ section {
   font-size: 22px;
 }
 
+
 .blog .entry .entry-content blockquote .quote-left {
   position: absolute;
   left: 20px;
   top: 20px;
   font-size: 36px;
-  color: #e7e7e7;
+  /* color: #e7e7e7; */
 }
 
 .blog .entry .entry-content blockquote .quote-right {
@@ -1706,7 +1715,7 @@ section {
   right: 20px;
   bottom: 20px;
   font-size: 36px;
-  color: #e7e7e7;
+  /* color: #e7e7e7; */
 }
 
 .blog .entry .entry-content blockquote::after {
@@ -1716,7 +1725,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #493c3e;
+  /* background-color: #493c3e; */
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -1727,12 +1736,12 @@ section {
 }
 
 .blog .entry .entry-footer i {
-  color: #9a8487;
+  color: #000;
   display: inline;
 }
 
 .blog .entry .entry-footer a {
-  color: #c3b6b8;
+  color: #000;
   transition: 0.3s;
 }
 
@@ -1764,7 +1773,7 @@ section {
 
 .blog .entry .entry-footer .tags li + li::before {
   padding-right: 6px;
-  color: #6c757d;
+  color: #000;
   content: ",";
 }
 
@@ -1808,13 +1817,13 @@ section {
 }
 
 .blog .blog-author .social-links a {
-  color: #b1a0a3;
+  color: #000;
 }
 
 .blog .blog-author p {
   margin-left: 140px;
   font-style: italic;
-  color: #b7b7b7;
+  color: #000;
 }
 
 .blog .blog-comments {
@@ -1842,7 +1851,7 @@ section {
 
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #ccc;
+  color: #000;
   transition: 0.3s;
 }
 
@@ -1852,14 +1861,14 @@ section {
 
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: #493c3e;
+  color: #000;
 }
 
 .blog .blog-comments .comment time {
   margin-left: 65px;
   display: block;
   font-size: 14px;
-  color: #b1a0a3;
+  color: #000;
   margin-bottom: 5px;
 }
 
@@ -2084,7 +2093,7 @@ section {
   margin-left: 95px;
   font-style: italic;
   font-size: 14px;
-  color: #b1a0a3;
+  /* color: #b1a0a3; */
 }
 
 .blog .sidebar .tags {
@@ -2101,7 +2110,7 @@ section {
 }
 
 .blog .sidebar .tags ul a {
-  color: #8e767a;
+  /* color: #8e767a; */
   font-size: 14px;
   padding: 6px 14px;
   margin: 0 6px 8px 0;
@@ -2129,13 +2138,13 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #0f292f;
+  /* background: #0f292f; */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #0f292f;
+  /* background: #0f292f; */
 }
 
 #footer .footer-top .footer-contact {
@@ -2219,8 +2228,8 @@ section {
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #0f292f;
-  background-color: #0f292f;
+  /* background: #0f292f;
+  background-color: #0f292f; */
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
@@ -2229,11 +2238,11 @@ section {
 }
 
 #footer .footer-newsletter form input[type="email"] {
-  border: 0;
+  border: none;
   padding: 4px 8px;
   width: calc(100% - 100px);
-  color: #ffffff;
-  background-color: #0f292f;
+  color: black;
+  background-color: transparent;
 }
 
 #footer .footer-newsletter form input[type="submit"] {
