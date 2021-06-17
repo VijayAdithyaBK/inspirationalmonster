@@ -19,8 +19,8 @@ body {
   /* background-color: #ccc; */
 
   /* -------------------- THIS IS GOOD -------------------- */
-  background-color: #b3cdd1; 
-  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+  /* background-color: #b3cdd1; 
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%); */
   /* ------------------ Background color ------------------ */
   }
 
@@ -60,11 +60,11 @@ body {
 /* ------ END: Color changing css effects for text ------ */
 
 a {
-  color: #ffffff;
+  color: #000;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -459,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   /* background: url("../img/hero-bg.jpg") top center; */
-  /* background: url("../img/bg-img.jpg") top center; */
+  background: url("../img/bg-img.jpg") top center;
   /* background: red;
   animation: mymove 2s 5s; */
   /* background: hsla(261, 20%, 81%, 1);
@@ -467,10 +467,10 @@ h1, h2, h3, h4, h5, h6 {
   background: -moz-linear-gradient(90deg, hsla(261, 20%, 81%, 1) 0%, hsla(261, 29%, 47%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(261, 20%, 81%, 1) 0%, hsla(261, 29%, 47%, 1) 100%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#cbc4d8", endColorstr="#6e569c", GradientType=1 ); */
-  background: #983922;
+  /* background: #983922;
   background: -webkit-radial-gradient(top right, #983922, #DCCEC0);
   background: -moz-radial-gradient(top right, #983922, #DCCEC0);
-  background: radial-gradient(to bottom left, #983922, #DCCEC0);
+  background: radial-gradient(to bottom left, #983922, #DCCEC0); */
   background-size: cover;
   position: relative;
 }
@@ -615,7 +615,8 @@ section {
   /* color: #24305e; */
   /* color: #f76c6c; */
   /* color: #4f4a41; */
-  color: #ccff33;
+  /* color: #ccff33; */
+  color: #377DFF;
 }
 
 .section-title p {
@@ -1197,7 +1198,7 @@ section {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #18d26e;
+  color: #377DFF;
 }
 
 .team .member:hover .social {
@@ -1214,7 +1215,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ffffff;
+  color: #000;
   float: left;
   width: 44px;
   height: 44px;
@@ -1237,7 +1238,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #816a6e;
+  color: #000;
 }
 
 .contact .info .email, .contact .info .phone {
@@ -1246,7 +1247,7 @@ section {
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #ffffff;
-  color: #0f292f;
+  color: #377DFF;
 }
 
 .contact .php-email-form {
@@ -1315,7 +1316,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #ffffff;
+  border-color: #377DFF;
 }
 
 .contact .php-email-form input {
@@ -1328,16 +1329,17 @@ section {
 
 .contact .php-email-form button[type="submit"] {
   background: transparent;
-  border: 2px solid #ffffff;
+  border: 1px solid #000;
   padding: 10px 28px;
-  color: #ffffff;
+  color: #000;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ffffff;
-  color: #0f292f;
+  background: #377DFF;
+  color: #fff;
+  border: 2px solid #377DFF;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1365,6 +1367,7 @@ section {
   padding: 15px 0;
   /* background: #0f292f; */
   margin-top: 67px;
+  color: #000;
 }
 
 @media (max-width: 992px) {
@@ -1377,6 +1380,7 @@ section {
   font-size: 36px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #000;
 }
 
 .breadcrumbs ol {
@@ -1386,6 +1390,7 @@ section {
   padding: 0 0 10px 0;
   margin: 0;
   font-size: 14px;
+  color: #000;
 }
 
 .breadcrumbs ol li + li {
@@ -1395,7 +1400,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #655356;
+  color: #000;
   content: "/";
 }
 
@@ -1517,7 +1522,7 @@ section {
 
 .blog #portfolio-flters li:hover, .blog #portfolio-flters li.filter-active {
   color: #fff;
-  background: #0f292f;
+  background: #377DFF;
   font-weight: bold;
 }
 
@@ -1550,12 +1555,12 @@ section {
 
 .blog .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 
 .blog .portfolio-item .portfolio-info p {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -1611,12 +1616,12 @@ section {
 }
 
 .blog .entry .entry-title a {
-  color: #ffffff;
+  color: #000;
   transition: 0.3s;
 }
 
 .blog .entry .entry-title a:hover {
-  color: #ffffff;
+  color: #000;
 }
 
 .blog .entry .entry-meta {
@@ -1646,6 +1651,7 @@ section {
 
 .blog .entry .entry-meta a {
   /* color: #9a8487; */
+  color: #000;
   font-size: 14px;
   display: inline-block;
   line-height: 1;
@@ -1664,7 +1670,7 @@ section {
 .blog .entry .entry-content .read-more a {
   display: inline-block;
   background: #ffffff;
-  color: #cb2d6f;
+  color: #377DFF;
   padding: 5px 20px 7px 20px;
   transition: 0.3s;
   font-size: 14px;
@@ -1672,8 +1678,8 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #0f292f;
-  border: 2px solid #cb2d6f;
+  background: #377DFF;
+  /* border: 2px solid #cb2d6f; */
   color: #ffffff;
 }
 
@@ -1746,7 +1752,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #ffffff;
+  color: #377DFF;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1784,6 +1790,10 @@ section {
 .blog .entry .entry-footer .share i {
   padding-left: 5px;
 }
+.blog .entry .entry-footer .share i:hover {
+  padding-left: 5px;
+  color: #377DFF;
+}
 
 .blog .entry-single {
   margin-bottom: 30px;
@@ -1818,6 +1828,9 @@ section {
 
 .blog .blog-author .social-links a {
   color: #000;
+}
+.blog .blog-author .social-links a:hover {
+  color: #377DFF;
 }
 
 .blog .blog-author p {
@@ -1856,7 +1869,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #cb2d6f;
+  color: #377DFF;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -1903,7 +1916,7 @@ section {
 
 .blog .blog-comments .reply-form input:focus {
   box-shadow: none;
-  border-color: #9df9ef;
+  border-color: #377DFF;
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -1914,7 +1927,7 @@ section {
 
 .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: #9df9ef;
+  border-color: #377DFF;
 }
 
 .blog .blog-comments .reply-form .form-group {
@@ -1927,13 +1940,13 @@ section {
   border: 0;
   border-radius: 50px;
   border: 2px solid #ffffff;
-  color: #fff;
+  color: #000;
   background-color: transparent;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #ffffff;
-  color: #0f292f;
+  background-color: #377DFF;
+  color: #fff;
 }
 
 .blog .blog-pagination {
@@ -1950,38 +1963,40 @@ section {
   border: 1px solid white;
   margin: 0 5px;
   transition: 0.3s;
-  background-color: #0f292f;
+  background-color: #fff;
+  color: #377DFF;
 }
 
 .blog .blog-pagination li.active {
-  color: #0f292f;
-  background: #ffffff;
+  color: #fff;
+  background: #377DFF;
 }
 
 .blog .blog-pagination li a {
-  color: #fff;
+  color: #377DFF;
+  border: 2px solid #fff;
   padding: 7px 16px;
   display: inline-block;
 }
 
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #fff;
-  border: 1px solid #ffffff;
-  color: #0f292f;
+  background: #377DFF;
+  border: 2px solid #fff;
+  color: #000;
 }
 
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
-  color: #0f292f;
+  color: #fff;
 }
 
 .blog .blog-pagination li.disabled {
   background: #fff;
-  color: #0f292f;
+  color: #377DFF;
   border: 1px solid white;
 }
 
 .blog .blog-pagination li.disabled i {
-  color: #0f292f;
+  color: #1b3a72;
   padding: 10px 16px;
   display: inline-block;
 }
@@ -1998,7 +2013,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #fff;
+  color: #000;
   position: relative;
 }
 
@@ -2007,7 +2022,7 @@ section {
 }
 
 .blog .sidebar .search-form form {
-  background: #fff;
+  background: #000;
   border: 1px solid #d3cacb;
   padding: 3px 10px;
   position: relative;
@@ -2032,12 +2047,12 @@ section {
   padding: 0 20px;
   margin: -1px;
   background: #ffffff;
-  color: #fff;
+  color: #000;
   transition: 0.3s;
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: #9df9ef;
+  background: #377DFF;
 }
 
 .blog .sidebar .categories ul {
@@ -2050,16 +2065,16 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-  color: #fff;
+  color: #000;
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #ffffff;
+  color: #000;
 }
 
 .blog .sidebar .categories ul a span {
   padding-left: 5px;
-  color: #fff;
+  color: #000;
   font-size: 14px;
 }
 
@@ -2080,12 +2095,12 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: #fff;
+  color: #000;
   transition: 0.3s;
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #ffffff;
+  color: #000;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2121,7 +2136,7 @@ section {
 }
 
 .blog .sidebar .tags ul a:hover {
-  color: #fff;
+  color: #000;
   border: 1px solid #ffffff;
   background: #ffffff;
 }
@@ -2136,7 +2151,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   /* background: #0f292f; */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -2149,6 +2164,9 @@ section {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact a{
+  color: #000;
 }
 
 #footer .footer-top .footer-contact h4 {
@@ -2164,13 +2182,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Nunito", sans-serif;
-  color: #fff;
+  color: #000;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2187,7 +2205,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffffff;
+  color: #000;
   font-size: 18px;
   line-height: 1;
 }
@@ -2211,7 +2229,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #000;
 }
 
 #footer .footer-newsletter {
@@ -2234,7 +2252,7 @@ section {
   position: relative;
   border-radius: 50px;
   text-align: left;
-  border: 1px solid #D2FDFF;
+  border: 1px solid #377DFF;
 }
 
 #footer .footer-newsletter form input[type="email"] {
@@ -2255,7 +2273,7 @@ section {
   font-size: 15px;
   padding: 0 22px;
   background: transparent;
-  color: #fff;
+  color: #000;
   transition: 0.3s;
   border: 1px solid #ffffff;
   border-radius: 50px;
@@ -2263,8 +2281,8 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #ffffff;
-  color: #0f292f;
+  background: #377DFF;
+  color: #fff;
 }
 
 #footer .credits {
@@ -2277,7 +2295,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: transparent;
-  color: #fff;
+  color: #000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -2291,6 +2309,6 @@ section {
 
 #footer .social-links a:hover {
   background: #ffffff;
-  color: #0f292f;
+  color: #377DFF;
   text-decoration: none;
 }
