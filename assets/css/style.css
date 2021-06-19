@@ -42,6 +42,8 @@ body {
 /* logo or main heading */
 #logo
 {
+  max-height: 5rem;
+  max-width: 20rem;
   font-size:20px;
   font-weight:bolder;
   /* color:#00004d; */
