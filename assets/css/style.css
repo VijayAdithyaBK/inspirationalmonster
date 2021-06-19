@@ -1436,7 +1436,7 @@ section {
   padding: 15px 0;
   /* background: #0f292f; */
   margin-top: 67px;
-  color: #000;
+  color: #fff;
 }
 
 @media (max-width: 992px) {
@@ -1449,7 +1449,7 @@ section {
   font-size: 36px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
 }
 
 .breadcrumbs ol {
@@ -1459,7 +1459,7 @@ section {
   padding: 0 0 10px 0;
   margin: 0;
   font-size: 14px;
-  color: #000;
+  color: #fff;
 }
 
 .breadcrumbs ol li + li {
@@ -1469,7 +1469,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #000;
+  color: #fff;
   content: "/";
 }
 
@@ -1624,12 +1624,12 @@ section {
 
 .blog .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #000;
+  color: #fff;
   font-weight: 600;
 }
 
 .blog .portfolio-item .portfolio-info p {
-  color: #000;
+  color: #fff;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -1664,6 +1664,7 @@ section {
 /* ------------------------------------------------------ */
 
 .blog .entry {
+  color: #fff;
   padding: 20px;
   margin-bottom: 60px;
   overflow: hidden;
@@ -1681,16 +1682,17 @@ section {
   line-height: 26px;
   font-weight: bold;
   padding: 0;
+  color: #fff;
   margin: 0 0 20px 0;
 }
 
 .blog .entry .entry-title a {
-  color: #000;
+  color: #fff;
   transition: 0.3s;
 }
 
 .blog .entry .entry-title a:hover {
-  color: #000;
+  color: #fff;
 }
 
 .blog .entry .entry-meta {
@@ -1720,7 +1722,7 @@ section {
 
 .blog .entry .entry-meta a {
   /* color: #9a8487; */
-  color: #000;
+  color: #fff;
   font-size: 14px;
   display: inline-block;
   line-height: 1;
@@ -1738,8 +1740,9 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #ffffff;
-  color: #14a5f0;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
   padding: 5px 20px 7px 20px;
   transition: 0.3s;
   font-size: 14px;
@@ -1811,12 +1814,12 @@ section {
 }
 
 .blog .entry .entry-footer i {
-  color: #000;
+  color: #fff;
   display: inline;
 }
 
 .blog .entry .entry-footer a {
-  color: #000;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -1848,7 +1851,7 @@ section {
 
 .blog .entry .entry-footer .tags li + li::before {
   padding-right: 6px;
-  color: #000;
+  color: #fff;
   content: ",";
 }
 
@@ -1896,7 +1899,7 @@ section {
 }
 
 .blog .blog-author .social-links a {
-  color: #000;
+  color: #fff;
 }
 .blog .blog-author .social-links a:hover {
   color: #14a5f0;
@@ -1905,7 +1908,7 @@ section {
 .blog .blog-author p {
   margin-left: 140px;
   font-style: italic;
-  color: #000;
+  color: #fff;
 }
 
 .blog .blog-comments {
@@ -1933,7 +1936,7 @@ section {
 
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #000;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -1943,14 +1946,14 @@ section {
 
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: #000;
+  color: #fff;
 }
 
 .blog .blog-comments .comment time {
   margin-left: 65px;
   display: block;
   font-size: 14px;
-  color: #000;
+  color: #fff;
   margin-bottom: 5px;
 }
 
@@ -2009,7 +2012,7 @@ section {
   border: 0;
   border-radius: 50px;
   border: 2px solid #ffffff;
-  color: #000;
+  color: #fff;
   background-color: transparent;
 }
 
@@ -2019,7 +2022,7 @@ section {
 }
 
 .blog .blog-pagination {
-  color: #0f292f;
+  color: #060707;
 }
 
 .blog .blog-pagination ul {
@@ -2065,8 +2068,8 @@ section {
 }
 
 .blog .blog-pagination li.disabled i {
-  color: #1b3a72;
-  padding: 10px 16px;
+  color: #14a5f0;
+  padding: 15px 16px;
   display: inline-block;
 }
 
@@ -2082,7 +2085,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #000;
+  color: #fff;
   position: relative;
 }
 
@@ -2091,7 +2094,7 @@ section {
 }
 
 .blog .sidebar .search-form form {
-  background: #000;
+  background: #fff;
   border: 1px solid #d3cacb;
   padding: 3px 10px;
   position: relative;
@@ -2115,8 +2118,8 @@ section {
   font-size: 16px;
   padding: 0 20px;
   margin: -1px;
-  background: #ffffff;
-  color: #000;
+  background: #000;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -2134,16 +2137,16 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-  color: #000;
+  color: #fff;
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #000;
+  color: #fff;
 }
 
 .blog .sidebar .categories ul a span {
   padding-left: 5px;
-  color: #000;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -2164,12 +2167,12 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: #000;
+  color: #fff;
   transition: 0.3s;
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #000;
+  color: #fff;
 }
 
 .blog .sidebar .recent-posts time {
