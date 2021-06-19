@@ -28,6 +28,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;700&display=swap');
+  </style>
+
   <!-- ================================================
   * Template Name: Tempo - v2.2.1
   * Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
@@ -39,22 +43,22 @@
 <body>
 
   <!-- ------------------ START: header ------------------ -->
-    <header id="header" class="fixed-top ">
-      <div class="container d-flex align-items-center">
+    <!-- <header id="header" class="fixed-top ">
+      <div class="container d-flex align-items-center"> -->
 
         <!-- <h1 class="logo mr-auto"><a href="index.html">Tempo</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" class="logo mr-auto"><img src="./assets/img/ispirationalmonster-logo.png" alt="" class="img-fluid"></a>
+        <!-- <a href="index.html" class="logo mr-auto"><img src="./assets/img/ispirationalmonster-logo.png" alt="" class="img-fluid"></a> -->
 
         <!-- ----------------- START: nav-menu ------------------ -->
-          <nav class="nav-menu d-none d-lg-block">
+          <!-- <nav class="nav-menu d-none d-lg-block">
             <ul>
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#blog">Blogs</a></li>
               <li class="drop-down"><a href="#blog">Categories</a>
                 <ul>
-                  <li><a href="motivational.html">Motivational</a></li>
+                  <li><a href="motivational.html">Motivational</a></li> -->
                   <!-- <li class="drop-down"><a href="#">Deep Drop Down</a>
                     <ul>
                       <li><a href="#">Deep Drop Down 1</a></li>
@@ -64,7 +68,7 @@
                       <li><a href="#">Deep Drop Down 5</a></li>
                     </ul>
                   </li> -->
-                  <li><a href="psychology.html">Psychology</a></li>
+                  <!-- <li><a href="psychology.html">Psychology</a></li>
                   <li><a href="sociology.html">Sociology</a></li>
                 </ul>
               </li>
@@ -72,10 +76,26 @@
               <li><a href="#team">Team</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </nav>
+          </nav> -->
         <!-- -------------------- nav-menu --------------------- -->
+      <!-- </div>
+    </header> -->
+    <!-- --------------- START: Video Header --------------- -->
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">Video Header</h1>
+            <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+          </div>
+        </div>
       </div>
     </header>
+    <!-- ---------------- END: Video Header ---------------- -->
   <!-- ------------------- END: header ------------------- -->
 
   <!-- ------------------ START: Welcome/hero Section ------------------- -->
@@ -84,11 +104,11 @@
         <!-- <h3>Welcome</h3> -->
         <br/>
         <h1>
-          <a style="font-family: Merriweather;" href="" class="typewrite" data-period="2000" data-type='[ "Shake your limits", "Wake your Monster!" ]'>
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Shake your limits", "Wake your Monster!" ]'>
             <span class="wrap"></span>
           </a>
         </h1>
-        <h1 class="gradient-text">Shake your limits, Wake your Monster!</h1>
+        <!-- <h1 class="gradient-text">Shake your limits, Wake your Monster!</h1> -->
         <br/>
         <!-- <h2>Sub-tagline</h2> -->
         <a href="#about" class="btn-get-started scrollto">Let's Monster!</a>
@@ -105,7 +125,7 @@
             <div class="section-title">
               <h2>About</h2>
               <h3>Meet The <span>Monster</span></h3>
-              <p class="text">Here you will learn about who we are and what is it that we aim to do.</p>
+              <p><span style="color: #377DFF;">Here you will learn about who we are and what is it that we aim to do.</span></p>
             </div>
 
             <div class="row content">
@@ -676,7 +696,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch mx-auto">
                 <div class="member">
                   <div class="member-img">
                     <img src="./assets/img/team/nachi.png" class="img-fluid" alt="">
