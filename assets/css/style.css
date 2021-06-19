@@ -60,7 +60,7 @@ body {
 #first-link
 {
   padding-right:6px;
-  border-right:solid 1px #ccc;
+  /* border-right:solid 1px #ccc; */
 }
 /* sign up link button and toggle button */
 #button-link ,#toogle-button
