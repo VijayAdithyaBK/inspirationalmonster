@@ -1812,7 +1812,7 @@ section {
 
 .blog .entry .entry-content blockquote {
   overflow: hidden;
-  background-color: #fafafa;
+  background-color: transparent;
   padding: 60px;
   position: relative;
   text-align: center;
